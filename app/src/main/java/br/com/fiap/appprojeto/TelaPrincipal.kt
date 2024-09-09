@@ -55,6 +55,7 @@ class MainActivity : ComponentActivity() {
                     ){
                         composable(route= "Telainicio"){ CRScreen(navController)}
                         composable(route= "TelaGuia"){ GDScreen(navController)}
+                        composable(route= "TelaIntegrantes"){ GIScreen(navController)}
 
                     }
 
